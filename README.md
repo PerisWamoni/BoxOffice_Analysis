@@ -1,7 +1,7 @@
 # BoxOffice_Analysis
 
 ## Link to Presentation
-"https://docs.google.com/presentation/d/e/2PACX-1vTuaYlPur7Zr9cW1cK86EELTbqPOUglXbmTP8XFMqhcnXhHOWHFMmcUVT9km7OY7rSq31ZTtBKyJa3V/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
+"https://docs.google.com/presentation/d/e/2PACX-1vTuaYlPur7Zr9cW1cK86EELTbqPOUglXbmTP8XFMqhcnXhHOWHFMmcUVT9km7OY7rSq31ZTtBKyJa3V/embed?start=false&loop=false&delayms=3000" 
 
 ## Introduction
 Microsoft is a global leader in the technology sector. The company is known for its innovation and success in a wide range of digital services and products. 
