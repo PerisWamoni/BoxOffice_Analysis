@@ -1,10 +1,10 @@
 # BoxOffice_Analysis
 
 ## Link to Presentation
-[Link to presentation](<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTuaYlPur7Zr9cW1cK86EELTbqPOUglXbmTP8XFMqhcnXhHOWHFMmcUVT9km7OY7rSq31ZTtBKyJa3V/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>)
+(<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTuaYlPur7Zr9cW1cK86EELTbqPOUglXbmTP8XFMqhcnXhHOWHFMmcUVT9km7OY7rSq31ZTtBKyJa3V/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>)
 
 ## Introduction
-Microsoft is a global leader in the technology sector. The company is known for its innovation and success in a wide range of digital services and products. Microsoft has proven itself capable of handling large- scale digital content and services through their success in the gaming industry via their product Xbox among others.
+Microsoft is a global leader in the technology sector. The company is known for its innovation and success in a wide range of digital services and products. 
 
 The demand for film and television content demand has been on the rise.Among the chief drivers of this demand is the proliferation of smartphones and availability of streaming platforms to consume film and tv content via these devices. Streaming services such as Netflix, Amazon Prime and Hulu made a total of $25.2 billion in revenue in 2020. This shows a clear demand for this type of content. Other statistics also show the global box office revenue itself is projected to increase in the coming years.
 
@@ -22,18 +22,18 @@ Microsoft has observed that all the big companies are creating original video co
 
 
 ### Objectives
-Our objective for this project is to clean, manipulate and analyse the data to create three visualizations through our analysis that can be translated to three recommendations. These recommendations will be used by the head of Microsoft's new movie studio in informing what type of films the studio will create. 
+Our objective for this project is to clean, manipulate and analyse the data to create three visualizations through our analysis that can be translated to three recommendations. 
 
 ## Data Understanding 
 The datasets used in this project come from reputable sources such as Box Office Mojo, IMDB, The Movie DB, and The Numbers, providing a comprehensive view of movie industry trends. These are all reliable databases where information is regularly updated and the websites routinely maintained.
 
 >> 'bom_gross' obtained from Box Office Mojo, contains information about the title of the movies, studio that produced the movies, domestic and foreign gross.
 
->> 'Imdb_ratings' and 'imdb_basics' were obtained from IMDB and contain information about the average ratings of the movies, the number of votes, the primary and original titles of the movies, the start year, the genres and the runtime minutes.
+>> 'imdb_ratings' and 'imdb_basics' were obtained from IMDB and contain information about the average ratings of the movies, the number of votes, the primary and original titles of the movies, the start year, the genres and the runtime minutes.
 
->> 'Tn_movie_budgets' was obtained from The Numbers and contains information about: the worldwide gross, the domestic gross and the production budget of movies.
+>> 'tn_movie_budgets' was obtained from The Numbers and contains information about: the worldwide gross, the domestic gross and the production budget of movies.
 
->> 'Tmdb_movies' was obtained from The Movies and contains information about the release dates and popularity of movies .
+>> 'tmdb_movies' was obtained from The Movies and contains information about the release dates and popularity of movies .
 
 Overall, the datasets include important information about film budgets, genres, ratings, gross earnings, and more. This data allows us to analyze various aspects related to the profitability and popularity of different types of films.
 
@@ -47,17 +47,19 @@ Some data are missing, and not all data are uniform across different sources, wh
 
 This project used pandas as the primary library for data manipulation, using many of its methods to load, clean and manipulate dataframes.
 
-Data cleaning methods such as splitting and exploding were also utilised. 
+Other methods utilised for the analysis are:
 
-Data transformation methods such as the creation of new columns were also put to use in data preparation.
+>> Data cleaning methods such as splitting and exploding.
 
-To get a summary of the central tendency, dispersion and shape pf the distribution in the datasets desrciptive statistics were utilised. 
+>> Data transformation methods such as the creation of new columns.
 
-To visualise our data and insights matplotlib.pyplot was used to create bar plots and scatter plots in order to understand the distribution of data and correlation between variables.
+>> Desecrpitive statistics used to get a summary of the central tendency, dispersion and shape pf the distribution in the datasets.
+
+>> Data visualization tools like matplotlib.pyplot to visualise our data and insights in order to understand the distribution of data and correlation between variables.
 
 
 ## Conclusions
-From the visualisations, it is possible to infer as:
+From the visualisations as seen in the notebook and non technical presentation, it is possible to infer:
 >> 1. Patrons preferred films with a runtime of 3 hours or longer and those that lasted an average of an hour. These films received a higher rating on average.
 
 >> 2. Short films, documentaries and game shows are the most popular genres.
@@ -66,7 +68,7 @@ From the visualisations, it is possible to infer as:
 
 
 ## Recommendations 
-Three recommendations for Microsoft Head of Studio's as the company opens a new movie studio are:
+Three recommendations for Microsoft's Head of Studio as the company opens a new movie studio are:
 
 >> 1. Invest in Documentaries and Short films: These genres show the highest average ratings. Microsoft could consider creating content in these genres to attract viewership and positive reviews, which could lead to higher overall visibility and success.
 
